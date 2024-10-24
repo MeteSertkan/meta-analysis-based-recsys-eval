@@ -2,9 +2,22 @@
 
 Welcome :wave: to the repo of our paper: 
 
-Exploring Effect-Size-Based Meta-Analysis for Multi-Dataset Evaluation
+**Exploring Effect-Size-Based Meta-Analysis for Multi-Dataset Evaluation** <br />
+Mete Sertkan, Sophia Althammer, Sebastian Hofstätter, Peter Knees, and Julia Neidhardt <br />
+[https://ceur-ws.org/Vol-3476/paper2.pdf](https://ceur-ws.org/Vol-3476/paper2.pdf)
 
 **tl;dr** We address the essential yet complex task of evaluating Recommender Systems (RecSys) across multiple datasets. This is critical for gauging their overall performance and applicability in various contexts. Owing to the unique characteristics of each dataset and the variability in algorithm performance, we propose the adoption of effect-size-based meta-analysis, a proven tool in comparative research. This approach enables us to compare a 'treatment model' and a 'control model' across multiple datasets, offering a comprehensive evaluation of their performance. Through two case studies, we highlight the flexibility and effectiveness of this method in multi-dataset evaluations, irrespective of the metric utilized. The power of forest plots in providing an intuitive and concise summarization of our analysis is also demonstrated, which significantly aids in the communication of research findings. Our work provides valuable insights into leveraging these methodologies to draw more reliable and validated conclusions on the generalizability and robustness of RecSys models.
+
+
+**Please cite our work as**
+```
+@inproceedings{sertkan2023exploring,
+	title        = {Exploring Effect-Size-Based Meta-Analysis for Multi-Dataset Evaluation.},
+	author       = {Sertkan, Mete and Althammer, Sophia and Hofst{\"a}tter, Sebastian and Knees, Peter and Neidhardt, Julia},
+	year         = 2023,
+	booktitle    = {Perspectives@ RecSys}
+}
+```
 
 ## Example
 ![MF vs. MF-Bias](figures/example.png)
